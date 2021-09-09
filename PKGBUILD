@@ -1,18 +1,16 @@
 # Maintainer: CookieSource <cookiesource@rebornos.org>
 # the following packages are in our own repositories. (work in progress)
 # tos-tools, rofi-tos, picom-tryone-tos, tde-touchegg.
+# Add software recommended, add tde (the desktop itself)
 pkgname=rebornos-cosmic-tde
-pkgver=0.1
+pkgver=0.2
 pkgrel=0
 pkgdesc='Cosmic package for RebornOS tde'
 url='https://github.com/RebornOS-Developers/rebornos-cosmic-tde'
 arch=('any')
 license=('GPL3')
-depends=('cairo' 'dbus' 'gdk-pixbuf2' 'imlib2' 'libxdg-basedir' 'lua53' 'lua53-lgi' 'pango'
-         'startup-notification' 'xcb-util-cursor' 'xcb-util-keysyms' 'xcb-util-wm'
-         'xorg-xmessage' 'libxkbcommon-x11' 'libxkbcommon' 'xcb-util-xrm' 'tos-tools' 
-         'pacman-contrib' 'xcb-util-errors' 'light-locker' 'awesome-freedesktop-git' 
-         'lxsession-gtk3' 'rofi-tos' 'python-gobject' 'python-dbus' 'picom-tryone-tos' 
-         'upower' 'rlwrap' 'imagemagick' 'libqalculate' 'autorandr' 'udiskie' 'librsvg' 
-         'tde-touchegg' 'qrencode' 'dex' 'kdeconnect')
+depends=('dex' 'kdeconnect' 'gnome-maps' 'gnome-calendar' 'gnome-calculator' 'gnome-clocks'
+  'gnome-firmware' 'gnome-nettool' 'gnome-photos' 'gnome-weather' 'arandr' 'evince'
+  'lxqt-archiver' 'lxqt-admin' 'vlc' 'audacious' 'pcmanfm-qt'
+  'ksysguard' 'kmag' 'partitionmanager' 'tde')
 )
